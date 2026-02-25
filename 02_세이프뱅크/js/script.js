@@ -34,5 +34,13 @@ $(function(){
         $(".tabcon").eq(j).show();
         return false;
     })
+
+    //popup
+    $(".pop").click(function() {
+        $(".popup").show();
+    })
+    $(".close button").click(function(){
+        $(".popup").hide();
+    })
 })
 

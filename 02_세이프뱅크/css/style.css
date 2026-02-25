@@ -8,6 +8,7 @@ img {vertical-align: top; max-width: 100%;}
 button {cursor: pointer;}
 body {background: #fff; color: #333;}
 
+.wrap {position: relative;}
 
 /* header */
 .header {height: 100px; background: #003366;}
@@ -58,6 +59,23 @@ nav>ul>li:hover>a {background: #f4d01f; color: #003366;}
 .banner div {background: rgba(0, 51,102, 0.8); height: 100%; padding: 20px;}
 .banner div h3 {margin-bottom: 10px; color: #f4d01f;}
 .banner div h3 span {font-weight: 300;}
+
+.go {padding: 10px;}
+.go img {width: 40px; height: 40px;}
+.go h2 {color: #003366; margin-bottom: 20px;}
+.go ul {display: flex; text-align: center; justify-content: center; gap: 10px;}
+.go ul li a {display: block; height: 100%;}
+.go ul li p {width: 80px; height: 80px; background: #003366; border-radius: 20px; padding-top: 20px; margin-bottom: 10px;}
+.go ul li span {font-weight: bold;}
+
+/* popup */
+.popup {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 9999; display: none;}
+.popcon {position: absolute; width: 500px; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #003366; color: #fff; padding: 20px; border-radius: 20px; text-align: center;}
+.popcon h2 {margin-bottom: 20px;}
+.popcon text {margin: 20px 0;}
+.popcon .close {text-align: right;}
+.popcon .close button {background: #330; border: 0; padding: 10px; color: #fff;}
+.popcon .close button:hover {background: #f4d01f; color: #000;}
 
 .footer {height: 120px; background: orange}
 .footer .inner {width: 1200px; height: 100%; margin: auto; background: green;}
