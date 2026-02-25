@@ -21,5 +21,18 @@ $(function(){
     }
 
     setInterval(slide, 2000);
+
+    //content-tabcon
+    let j = 0;
+    $(".tabmenu>li").click(function() {
+        $(".tabmenu>li").removeClass("on");
+        $(this).addClass("on");
+
+        j = $(this).index();
+        
+        $(".tabcon").hide();
+        $(".tabcon").eq(j).show();
+        return false;
+    })
 })
 

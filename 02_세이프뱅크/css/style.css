@@ -31,9 +31,27 @@ nav>ul>li:hover>a {background: #f4d01f; color: #003366;}
 .slide ul li.s3 {background: url(../images/s3.jpg) no-repeat center/cover;}
 .slide ul li h2 {color: #003366; text-shadow: 0 5px 10px #fff; font-size: 35px; position: absolute; top: 50%; left: 30px; transform: translateY(-50%);}
 
-
+/* contents */
 .contents {width: 1200px; height: 200px; margin: auto; background: blue; display: flex;}
 .contents article {width: 400px; height: 100%;}
+.con {position: relative; padding: 10px;}
+.tabmenu {display: flex;}
+.tabmenu>li {width: 150px; background: #d3d3d3;}
+.tabmenu>li.on {background: #003366; color: #fff;}
+.tabmenu>li>h2>a {display: block; text-align: center; padding: 5px 0;}
+.tabcon {position: absolute; left: 0; width: 100%; background: #003366; padding: 5px; height: 140px;}
+
+.notice ul {padding: 0 15px; }
+.notice ul li {border-bottom: 1px dashed #fff;}
+.notice ul li:last-child {border-bottom: none;}
+.notice ul li a {display: block; padding: 5px 0; color: #fff; position: relative;}
+.notice ul li p {width: 260px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.notice ul li span {position: absolute; top: 5px; right: 0;}
+
+.gallery {display: none;}
+.gallery ul {display: flex; gap: 10px; justify-content: center; margin-top: 20px;}
+.gallery ul li img {width: 100px; height: 100px; object-fit: cover;}
+
 .contents article.banner {background: purple}
 .footer {height: 120px; background: orange}
 .footer .inner {width: 1200px; height: 100%; margin: auto; background: green;}
