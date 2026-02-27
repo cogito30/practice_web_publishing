@@ -26,10 +26,17 @@ nav>ul>li:hover>a {background: black; color: #fff;}
 .sub>li>a {display: block; border: 1px solid black; padding: 10px 20px; background: black; color: white;}
 .sub>li:hover>a {background: white; color: black;}
 
+/* contents */
+.contents {width: 400px; height: 100%; background: pink; padding: 20px 5px;}
+.notice h2 {width: 120px; font-size: 18px; text-align: center; padding: 10px 0; background: white; border-radius: 15px 15px 0 0;}
+.notice ul {border-top: 3px solid white; padding: 5px 15px;}
+.notice ul li {border-bottom: 1px dashed black;}
+.notice ul li a {display: block; padding: 5px 0; position: relative;}
+.notice ul li .date {position: absolute; top: 5px; right: 0;}
 
-.contents {width: 400px; height: 100%; background: pink;}
-.notice {width: 100%; height: 250px; background: blue;}
 .gallery {width: 100%; height: 250px; background: skyblue;}
 .go {width: 100%; height: 200px; background: green;}
+
+
 .slide {width: calc(100% - 600px); height: 700px; background: purple;}
 .footer {width: 100%; height: 100px; background: yellow;}
