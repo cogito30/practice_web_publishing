@@ -43,8 +43,10 @@ nav>ul>li:hover>a {background: black; color: #fff;}
 .gallery ul li .text {font-weight: bold; margin-top: 10px; color: white}
 
 /* contentes-go */
-.go {width: 100%; height: 200px; background: green;}
-
+.go {margin-top: 20px;}
+.go ul {border-top: 3px solid white; padding-top: 50px; display: flex; gap: 30px; justify-content: center;}
+.go ul li {text-align: center;}
+.go ul li .text {margin-top: 10px; font-size: 16px;}
 
 
 .slide {width: calc(100% - 600px); height: 700px; background: purple;}
