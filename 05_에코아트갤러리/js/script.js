@@ -6,4 +6,13 @@ $(function() {
     $("nav ul li").mouseleave(function (){
         $(".sub").stop().fadeOut(200);
     })
+
+    // popup
+    $(".pop").click(function() {
+        $(".popup").show();
+        return false; 
+    })
+    $(".close button").click(function() {
+        $(".popup").hide();
+    })
 })
