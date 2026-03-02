@@ -9,7 +9,19 @@ body {background: #369; color: #333;}
 /* layout */
 .wrap {height: 100vh;}
 .top {display: flex; height: calc(100% - 100px); background: skyblue;}
-.header {width: 250px; background: red;}
+
+/* header */
+.header {width: 250px; background: #fff9f0; padding: 100px 20px 0;}
+.header h1 {text-align: center; margin-bottom: 100px;}
+.header h1 a img {width: 40px; height: 40px;}
+nav>ul>li>a {display: block; background: #3c92d0; padding: 10px 0; text-align: center; color: #fff;}
+nav>ul>li:hover>a {background: #333; color: #fff9f0;}
+.sub {display: none;}
+.sub li a {background: #fff; display: block; text-align: center; padding: 5px 0;}
+.sub li a:hover {background: #ccc; color: #fff;}
+.spot {margin-top: 20px; text-align: center; font-size: 14px;}
+.spot a:first-child {border-right: 1px solid #333; padding-right: 5px;}
+
 .contents {width: 400px; background: green;}
 .banner {background: purple;}
 .notice {background: orange;}
